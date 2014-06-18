@@ -22,12 +22,6 @@
         },
 
         {
-            "name": "LayoutTemplate",
-            "paths": ["/Users/s7at1c/Development/Templates/LayoutTemplate/"],
-            "open_on_start": []
-        },
-
-        {
             "name": "Bethon",
             "paths": ["/Users/s7at1c/Development/JavaScript/bethon3"],
             "open_on_start": []
@@ -36,16 +30,7 @@
         {
             "name": "Tooeezzy Layout",
             "paths": ["/Users/s7at1c/Development/Works/tooeezzy_layout/trunk/"],
-            "open_on_start": [],
-            "hide_default_commands": ["grunt"],
-            "commands": {
-                "ctags": {
-                    "exclude": ["node_modules", "bower_components", "build"]
-                },
-                "Test Command": {
-                    "cmd": "ls -la"
-                }
-            }
+            "open_on_start": []
         },
 
         {
@@ -68,23 +53,13 @@
 
         {
             "name": "My Settings And Snippets",
-            "paths": ["/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User"],
-            "open_on_start": ["/Users/s7at1c/.zshrc", "/Users/s7at1c/.gitconfig"]
+            "paths": ["/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User", "/Users/s7at1c/Development/Scripts/dotfiles"],
+            "open_on_start": []
         },
 
         {
-            "name": "ProjectsList Sublime Plugin",
-            "paths": ["/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/ProjectsList"],
-            "open_on_start": [
-                "//Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages//ProjectsList/ProjectsList.py",
-                "/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/ProjectsList/ProjectsList.sublime-settings",
-                "/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/ProjectsList/Default.sublime-commands"
-            ]
-        },
-
-        {
-            "name": "MarkThings",
-            "paths": ["/Users/s7at1c/Development/php/markthings/www/"],
+            "name": "Experiments",
+            "paths": ["/Users/s7at1c/Development/JavaScript/Experiments/"],
             "open_on_start": []
         },
 
