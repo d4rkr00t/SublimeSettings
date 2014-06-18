@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+describe('Service: ${1:serviceName}', function () {
+  'use strict';
+
+  // load the service's module
+  beforeEach(module('${2:app}'));
+
+  // instantiate service
+  var ${1:serviceName};
+  beforeEach(inject(function (_${1:serviceName}_) {
+    ${1:serviceName} = _${1:serviceName}_;
+  }));
+
+  it('should be loaded', function () {
+    expect(!!${1:serviceName}).toBe(true);
+  });
+
+});
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ajs_ser_test</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

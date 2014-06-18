@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+angular.module('${1:module_name}')
+  .service('${2:service_name}Service', ['${3}', function(${3}) {
+    'use strict';
+    ${4}
+    return {
+      method: function() {
+
+      }
+    };
+  }]);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ajs_ser</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

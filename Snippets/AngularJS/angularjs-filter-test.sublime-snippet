@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+describe('Filter: ${1:filterName}', function () {
+  'use strict';
+
+  // load the filter's module
+  beforeEach(module('${2:app}'));
+
+  // initialize a new instance of the filter before each test
+  var ${1:filterName};
+  beforeEach(inject(function ($filter) {
+    ${1:filterName} = $filter('${1:filterName}');
+  }));
+
+  it('should return the input prefixed with "${1:filterName} filter:"', function () {
+    var text = 'angularjs';
+    expect(${1:filterName}(text)).toBe('${1:filterName} filter: ' + text);
+  });
+
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ajs_fil_test</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
+
+

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+for (var ${1:item} in ${2:object}) {
+    if ( ${2:object}.hasOwnProperty(${1:item}) ) {
+        ${3}
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>forin</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js, text.html, source.html</scope>
+</snippet>

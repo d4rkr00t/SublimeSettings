@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+angular.module('${1:module_name}')
+  .controller('${2:controller_name}Ctrl', ['$scope', function(\$scope${3}) {
+    'use strict';
+
+    ${4}
+  }]);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ajs_cont</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

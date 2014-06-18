@@ -1,0 +1,103 @@
+{
+    "projects_osx": [
+
+        {
+            "name": "In Work",
+            "paths": [
+                "/Users/s7at1c/Dropbox/#В\\ работе"
+            ],
+            "open_on_start": []
+        },
+
+        {
+            "name": "JavaScript",
+            "paths": ["/Users/s7at1c/Development/JavaScript/"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "Works",
+            "paths": ["/Users/s7at1c/Development/Works/"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "LayoutTemplate",
+            "paths": ["/Users/s7at1c/Development/Templates/LayoutTemplate/"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "Bethon",
+            "paths": ["/Users/s7at1c/Development/JavaScript/bethon3"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "Tooeezzy Layout",
+            "paths": ["/Users/s7at1c/Development/Works/tooeezzy_layout/trunk/"],
+            "open_on_start": [],
+            "hide_default_commands": ["grunt"],
+            "commands": {
+                "ctags": {
+                    "exclude": ["node_modules", "bower_components", "build"]
+                },
+                "Test Command": {
+                    "cmd": "ls -la"
+                }
+            }
+        },
+
+        {
+            "name": "Tooeezzy Site",
+            "paths": ["/Users/s7at1c/Development/Works/tooeezzy_www_trunk"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "s7at1c.ru",
+            "paths": ["/Users/s7at1c/Development/php/s7at1c.lc"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "AngularJS",
+            "paths": ["/Users/s7at1c/Development/JavaScript/angular.js"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "My Settings And Snippets",
+            "paths": ["/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User"],
+            "open_on_start": ["/Users/s7at1c/.zshrc", "/Users/s7at1c/.gitconfig"]
+        },
+
+        {
+            "name": "ProjectsList Sublime Plugin",
+            "paths": ["/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/ProjectsList"],
+            "open_on_start": [
+                "//Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages//ProjectsList/ProjectsList.py",
+                "/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/ProjectsList/ProjectsList.sublime-settings",
+                "/Users/s7at1c/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/ProjectsList/Default.sublime-commands"
+            ]
+        },
+
+        {
+            "name": "MarkThings",
+            "paths": ["/Users/s7at1c/Development/php/markthings/www/"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "CodePen Demos",
+            "paths": ["/Users/s7at1c/Development/JavaScript/CodePen\\ Demos/"],
+            "open_on_start": []
+        },
+
+        {
+            "name": "Temp Folder Projects",
+            "paths": ["/Users/s7at1c/Development/Temp"],
+            "open_on_start" : []
+        }
+    ]
+}

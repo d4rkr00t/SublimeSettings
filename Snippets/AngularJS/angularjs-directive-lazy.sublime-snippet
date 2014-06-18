@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+define([], function() {
+  'use strict';
+
+  return ['directive', '${1:directive_name}', [
+    '',
+    function() {
+      return {
+        templateUrl: '${2}',
+        restrict: 'EA',
+        link: function(scope, element, attrs) {
+          ${3}
+        }
+      };
+    }
+  ]];
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ajs_dir_l</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

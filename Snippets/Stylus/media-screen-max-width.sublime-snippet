@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@media screen and (max-width: ${1:980px})
+    ${2}
+
+]]></content>
+    <description>@media screen and (max-width)</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mquery</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.styl, text.styl</scope>
+</snippet>

@@ -1,0 +1,27 @@
+[
+    { "keys": ["super+shift+|"], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["super+shift+r"], "command": "reindent" },
+    { "keys": ["super+alt+shift+r"], "command": "refresh_folder_list" },
+
+    // Go To
+    { "keys": ["super+alt+down"], "command": "goto_definition" },
+
+    // Open folder in finder
+    { "keys": ["super+shift+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+
+    // Bookmarks
+    { "keys": ["super+b"], "command": "toggle_bookmark" },
+    { "keys": ["super+alt+b"], "command": "next_bookmark" },
+    { "keys": ["super+ctrl+b"], "command": "prev_bookmark" },
+    { "keys": ["alt+ctrl+b"], "command": "clear_bookmarks" },
+
+    // Pasting
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+
+    { "keys": ["ctrl+a"], "command": "auto_complete" },
+
+    { "keys": ["super+shift+t"], "command": "open_terminal" }
+]

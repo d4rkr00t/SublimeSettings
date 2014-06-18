@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+/** 
+ * ${1}
+ *
+ * PHP version ${2}
+ * 
+ * @category ${3:None}
+ * @package  ${4:None}
+ * @author   ${5:Stanislav Sysoev <d4rkr00t@mail.ru>}
+ * @license  ${6:http://opensource.org/licenses/bsd-license.php BSD}
+ * @link     http://${7}
+ */
+]]></content>
+    <description>PHP Class Doc Comment</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>doc_c</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

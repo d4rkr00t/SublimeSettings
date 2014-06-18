@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+\$(document).on('${1:click}', '${2:selector}', function(${3:evt}) {
+    ${4}
+});
+]]></content>
+    <description>jQuery $(document).on(...) - new style live</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jqdon</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

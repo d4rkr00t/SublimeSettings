@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<!doctype html>
+<html>
+    <head>
+        <title>${1:title}</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        ${2}
+    </body>
+</html>
+]]></content>
+    <description>HTML Simple Start Layout</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>slayout</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>
