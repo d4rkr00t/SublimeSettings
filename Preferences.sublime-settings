@@ -1,10 +1,4 @@
 {
-	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Spacegray Eighties.sublime-theme",
 	"auto_complete_triggers":
 	[
 		{
@@ -20,9 +14,10 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_inactive_tabs": true,
+	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
 	"create_window_at_startup": false,
-	"fade_fold_buttons": false,
 	"draw_white_space": "all",
+	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -51,6 +46,7 @@
 	"suppress_word_completions": true,
 	"tabs_small": true,
 	"tern_argument_hints": true,
+	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
