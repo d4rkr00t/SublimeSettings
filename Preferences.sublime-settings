@@ -33,10 +33,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"AutoFileName",
 		"Vintage",
 		"FuzzyFilePath",
-		"AdvancedNewFile",
-		"AutoFileName"
+		"AdvancedNewFile"
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
