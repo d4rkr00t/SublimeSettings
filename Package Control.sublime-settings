@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"AlignTab",
 		"All Autocomplete",
 		"AngularJS",
 		"AutoFileName",
@@ -12,6 +13,7 @@
 		"DocBlockr",
 		"Emmet",
 		"FileDiffs",
+		"FindKeyConflicts",
 		"GitGutter",
 		"Gutter Color",
 		"HTML-CSS-JS Prettify",
@@ -21,6 +23,7 @@
 		"jQuery",
 		"LESS",
 		"Markdown Preview",
+		"Modific",
 		"PHP-Twig",
 		"SCSS",
 		"SideBarEnhancements",
