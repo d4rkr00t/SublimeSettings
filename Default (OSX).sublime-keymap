@@ -23,5 +23,9 @@
 
     { "keys": ["ctrl+a"], "command": "auto_complete" },
 
-    { "keys": ["super+shift+t"], "command": "open_terminal" }
+    { "keys": ["super+shift+t"], "command": "open_terminal" },
+
+    // Modific
+    { "keys": ["ctrl+alt+shift+up"], "command": "jump_between_changes", "args": {"direction": "prev"} },
+    { "keys": ["ctrl+alt+shift+down"], "command": "jump_between_changes", "args": {"direction": "next"} }
 ]
