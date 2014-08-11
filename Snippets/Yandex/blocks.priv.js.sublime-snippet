@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+blocks['$1'] = function(${2:data}) {
+    $3
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ybl</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
