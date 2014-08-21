@@ -25,6 +25,7 @@
 		"Markdown Preview",
 		"Mocha Snippets",
 		"Modific",
+		"MultiEditUtils",
 		"PHP-Twig",
 		"SideBarEnhancements",
 		"Stylus",
@@ -40,6 +41,7 @@
 		"Subway Color Schemes",
 		"Syntax Highlighting for Sass",
 		"Terminal",
-		"Theme - Spacegray"
+		"Theme - Spacegray",
+		"Vanilla lodash Snippets"
 	]
 }

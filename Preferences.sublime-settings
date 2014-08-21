@@ -14,7 +14,7 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/base16-ocean.light (SL).tmTheme",
 	"create_window_at_startup": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
@@ -46,7 +46,7 @@
 	"suppress_word_completions": true,
 	"tabs_small": true,
 	"tern_argument_hints": true,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"theme": "Spacegray Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
