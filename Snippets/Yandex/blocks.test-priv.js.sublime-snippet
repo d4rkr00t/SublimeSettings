@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
 describeBlock('$1', function (block) {
-    var data = {},
-        wzrd = {};
+    var data, wzrd;
 
     // stubBlocks();
 
