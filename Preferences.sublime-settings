@@ -1,4 +1,5 @@
 {
+	"atomic_save": false,
 	"auto_complete_triggers":
 	[
 		{
@@ -33,6 +34,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"CTags",
+		"tern_for_sublime",
 		"Vintage"
 	],
 	"line_padding_bottom": 3,
