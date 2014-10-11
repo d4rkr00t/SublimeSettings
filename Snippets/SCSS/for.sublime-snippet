@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+@for \$i from ${1:1} through ${2:10} {
+    &:nth-child(#\{\$i\}) {
+        animation: ${3:anim-name} ${4:.3s} linear forwards \$i * .2s;
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>scss_for</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.scss</scope>
+</snippet>
